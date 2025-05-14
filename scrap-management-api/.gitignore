@@ -1,16 +1,27 @@
-# Compiled class files
+# ================================
+# Ignorer les fichiers compilés Java
+# ================================
 *.class
 
-# Log files
+# ================================
+# Ignorer les fichiers de logs
+# ================================
 *.log
 
-# BlueJ files
+# ================================
+# Ignorer les fichiers BlueJ
+# ================================
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# ================================
+# Fichiers temporaires pour J2ME
+# ================================
 .mtj.tmp/
 
-# Package Files
+# ================================
+# Ignorer les fichiers de packages
+# (archives générées)
+# ================================
 *.jar
 *.war
 *.nar
@@ -19,11 +30,15 @@
 *.tar.gz
 *.rar
 
-# JVM crash logs
+# ================================
+# Logs de crash de la JVM
+# ================================
 hs_err_pid*
 replay_pid*
 
-# Maven generated files
+# ================================
+# Fichiers générés par Maven
+# ================================
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -34,25 +49,31 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
-# Maven Wrapper JAR (keep this one unignored!)
+# Garder le Maven Wrapper JAR
 !.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse specific
+# ================================
+# Fichiers spécifiques à Eclipse
+# ================================
 .project
 .classpath
 .factorypath
 .apt_generated
 .springBeans
 .sts4-cache
-.settings
+.settings/
 
-# IntelliJ IDEA
-.idea
+# ================================
+# Fichiers spécifiques à IntelliJ IDEA
+# ================================
+.idea/
 *.iws
 *.iml
 *.ipr
 
-# NetBeans
+# ================================
+# Fichiers spécifiques à NetBeans
+# ================================
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -62,7 +83,7 @@ buildNumber.properties
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# VS Code
+# ================================
+# Fichiers spécifiques à Visual Studio Code
+# ================================
 .vscode/
-
- 
